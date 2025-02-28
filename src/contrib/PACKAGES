@@ -1,0 +1,109 @@
+Package: audio.vadwebrtc
+Version: 0.2
+License: MPL-2.0
+NeedsCompilation: yes
+MD5sum: 7f308e9575cb262badefd047175aa279
+Filesize: 1015637
+SHA256: 74ab4f285486b4ef45a5387cdb337019737083d64c7f4e47c612cdd432561014
+Depends: R (>= 2.10)
+LinkingTo: Rcpp, abseil
+Imports: Rcpp (>= 0.11.5), utils
+Suggests: av, audio
+
+Package: httpgd
+Version: 2.0.2
+License: GPL (>= 2)
+NeedsCompilation: yes
+MD5sum: 91c08cfa9d7e39b0d8a7e58f85c1f6fc
+Filesize: 435843
+SHA256: 7dbf922325ff5497d05ed9e707a29de2fb9e8a28618fa901b727052db533f457
+Depends: R (>= 3.2.0)
+LinkingTo: unigd, cpp11 (>= 0.2.4), AsioHeaders (>= 1.22.1)
+Imports: unigd
+Suggests: testthat, xml2 (>= 1.0.0), knitr, rmarkdown, covr, future, httr, jsonlite
+
+Package: multitools
+Version: 0.1.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 341988d12157059f40b135cb0dddddd3
+Filesize: 186599
+SHA256: ffd580f7eae52fc879f30d9b32ebed9e24f1d1963d89148c09cacab881fbe0c8
+Depends: R (>= 4.0.0)
+Imports: jsonlite, tibble
+Suggests: curl, knitr (>= 1.30), markdown (>= 1.1), rmarkdown (>= 2.4), testthat (>= 3.0.0)
+
+Package: nanoarrow
+Version: 0.6.0
+License: Apache License (>= 2)
+NeedsCompilation: yes
+MD5sum: 4658839005d6aeb3a0972293e6e65b2b
+Filesize: 580994
+SHA256: 14e64fbb53358393f0f3337332673d318fee411d983ac98def3d1c5d9332486d
+Suggests: arrow (>= 9.0.0), bit64, blob, hms, jsonlite, rlang, testthat (>= 3.0.0), tibble, vctrs, withr
+
+Package: polars
+Version: 0.22.1
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 4ce640abc6b09876a87bfbfafff67821
+Filesize: 2073308
+SHA256: 6c130576af99796ce0fff68cde5b1939b76964ab1cf859634e65dd68f5d8fbb9
+Depends: R (>= 4.2)
+Imports: utils, codetools, methods
+Suggests: arrow (>= 15.0.1), bench, bit64, callr, clock (>= 0.7.0), curl, ggplot2, jsonlite, knitr (>= 1.49.0), lubridate, nanoarrow (>= 0.6.0), nycflights13, patrick (>= 0.3.0), quickcheck, pillar, rlang, rmarkdown, testthat (>= 3.2.1), tibble, tools, vctrs, withr, xfun (>= 0.48)
+
+Package: prqlr
+Version: 0.10.0
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: bad100c4c8da94c0d522b4a399dfe4b1
+Filesize: 196026
+SHA256: e4484e4ec2128084f1af1b85ccfdddae0db1687350b8a65d04452467c14d659d
+Depends: R (>= 4.2)
+Suggests: knitr (>= 1.44), rmarkdown, DBI, glue, RSQLite, tidyquery, sqldf, nycflights13, dplyr, testthat (>= 3.2.0), patrick (>= 0.3.0), withr, cli
+
+Package: rJavaEnv
+Version: 0.2.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 03c81883ea6f60aa9010beedefa0c3ef
+Filesize: 256626
+SHA256: 31056147fdbdd15eb58090b30919f4e41dbc4d377dadcac45a2648d18c1ab979
+Depends: R (>= 4.0)
+Imports: checkmate, cli, curl, jsonlite, utils
+Suggests: quarto, rJava, testthat (>= 3.0.0)
+
+Package: targetsketch
+Version: 0.0.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+MD5sum: 896ba909a694d5b5122f7fc44fd8e0d2
+Filesize: 81292
+SHA256: 39a85fd55babcc98b12624693745d0c8a4f136446b90cd6a204a1360c06493c4
+Depends: R (>= 4.1.0)
+Imports: bs4Dash (>= 2.0.0), DT (>= 0.14), htmltools (>= 0.5.0), markdown, rclipboard, shiny (>= 1.5.0), shinyalert (>= 1.1), shinyAce (>= 0.4.1), shinybusy (>= 0.2.0), shinycssloaders (>= 0.3), shinyFiles (>= 0.9.3), targets (>= 0.2.0), tarchetypes (>= 0.1.0), visNetwork (>= 2.0.9), withr (>= 2.2.0)
+Suggests: pkgload (>= 1.1.0), rmarkdown (>= 2.3)
+
+Package: unigd
+Version: 0.1.2
+License: GPL (>= 2)
+NeedsCompilation: yes
+MD5sum: 2940f71c615e2e9b1929b8bb9d9bf9d0
+Filesize: 908556
+SHA256: 32b84d039484d4b8a28c379a79341cd0e09b22c66e6fd06d07d6108cfb4f3659
+Depends: R (>= 3.2.0)
+LinkingTo: cpp11 (>= 0.2.4), systemfonts
+Imports: systemfonts (>= 1.0.0)
+Suggests: testthat (>= 3.0.0), xml2 (>= 1.0.0), fontquiver (>= 0.2.0), covr, knitr, rmarkdown
+
+Package: zstdlite
+Version: 0.2.6
+License: MIT + file LICENSE
+NeedsCompilation: yes
+MD5sum: 3a5833b7e596d83c6f60c6dc37993444
+Filesize: 767208
+SHA256: 6eb983a21cdecd8e1cb0a30350c8817eabf2a7df16818e2088ef21c283736143
+Depends: R (>= 3.4.0)
+Suggests: knitr, rmarkdown, testthat, bench
+
